@@ -1,6 +1,119 @@
 <%include shared/header.ejs%>
 
-<h1><%=title%></h1>
-<p><%=message%></p>
+<h1>Sedan</h1>
 
-<% include shared/footer.ejs%>
+
+<head>
+    <title>Models</title>
+    <!-- Internal CSS starts -->
+    <style>
+        body{ background-color:red;
+        }
+        logo{
+
+            float:left;
+        }
+
+        h3{
+            color:white;
+            font-family:arial;
+            text-align:center;
+        }
+        h1{color:white;
+            font-family:arial;
+            text-align:center;
+        }
+        .img_container{
+            width:100%;
+            padding: 50px;
+
+        }
+        .img_container .block {
+            background: black;
+            color:white;
+            width: 250px;
+            border: 2px solid gray;
+            margin: 50px;
+            float:left;
+            padding:0px 0px;
+            height:325px;
+            text-align:center;
+        }
+        .img_container .block img{
+            width: 250px;
+            height:180px;
+            text-align:center;
+        }
+
+    </style>
+    <!-- internal CSS ends -->
+</head>
+<!-- ARIA code -->
+<div role="main">
+    <body>
+
+    <!-- ARIA landmark starts-->
+    <div role="main">
+        <h3> Unleash your Senses.</h3>
+        <h3> Presenting Hot car collection</h3>
+                        <br><br>
+
+                        <div class="img_container">
+                            <div class="block">
+                                <div><img src="images/m5.jpg"></div>
+
+                                <div style="margin:20px;">BMW M5</div>
+                                <div style="margin:5px;">7 Speed sports tansmission</div>
+                                <div style="margin:5px;">585 HP & 900NM</div>
+                                <div style="margin:5px;">Price: $80,000</div>
+                            </div>
+                            <div class="block">
+                                <img src="images/AMGC63.JPG">
+                                <div style="margin:20px;">AMG CLA 45</div>
+                                <div style="margin:5px;">2.0 Litre turbocharged</div>
+                                <div style="margin:5px;">Speedshift-7</div>
+                                <div style="margin:5px;">Price: $80,000</div>
+                            </div>
+
+
+                            <div class="block">
+                                <img src="images/dc.jpg" >
+                                <div style="margin:20px;">Dodge Charger</div>
+                                <div style="margin:5px;">6 Litre V6 engine</div>
+                                <div style="margin:5px;">420 HP & 600NM</div>
+                                <div style="margin:5px;">Price: $65,000</div>
+
+                            </div>
+                        </div>
+
+                        <div class="img_container">
+                            <div class="block">
+                                <div><img src="images/LI.jpg" ></div>
+                                <div style="margin:20px;">Lexus IS</div>
+                                <div style="margin:5px;">2.0 Litre 4 Cyl Turbo engine</div>
+                                <div style="margin:5px;">Electronic stability (ESP)</div>
+                                <div style="margin:5px;">Price: $42,000</div>
+                            </div>
+                            <div class="block">
+                                <img src="images/vw.JPG">
+                                <div style="margin:20px;">Volkswagen Jetta GLI</div>
+                                <div style="margin:5px;">2.0 Litre 4 Cyl Turbo engine</div>
+                                <div style="margin:5px;">TRONIC automatic transmission</div>
+                                <div style="margin:5px;">Price: $27,000</div>
+                            </div>
+
+
+                            <div class="block">
+                                <img src="images/ML.jpg" >
+                                <div style="margin:20px;">Lancer Evolution X</div>
+                                <div style="margin:5px;">2.0-liter turbocharged 4-cylinder engine</div>
+                                <div style="margin:5px;"> 17/23 mpg city/hwy </div>
+                                <div style="margin:5px;">Price: $18,000</div>
+                            </div>
+                        </div>
+
+
+                </div>
+
+</body>
+</div>
