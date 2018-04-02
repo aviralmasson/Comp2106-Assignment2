@@ -28,13 +28,13 @@ router.get('/pagethree', function(req, res, next) {
 });
 router.get('/pagefour', function(req, res, next) {
     res.render('pagefour', {
-        title: 'Convertible',
+        title: 'Login/Register',
         message: ''
     });
 });
-router.get('/pagefive', function(req, res, next) {
-    res.render('pagefive', {
-        title: 'Sports',
+router.get('/register', function(req, res, next) {
+    res.render('register', {
+        title: 'Register',
         message: ''
     });
 });
